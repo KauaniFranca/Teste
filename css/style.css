@@ -10,6 +10,16 @@ header {
     background: #4CAF50;
     color: white;
     padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 nav button {
@@ -40,6 +50,12 @@ main {
     max-width: 100%;
 }
 
+.legenda {
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+}
+
 footer {
     background: #333;
     color: white;
@@ -52,7 +68,15 @@ footer {
     color: white;
 }
 
+.dark-mode header {
+    background: #222;
+}
+
 .dark-mode .card {
     background: #444;
     border-color: #666;
+}
+
+.dark-mode .legenda {
+    color: yellow;
 }
